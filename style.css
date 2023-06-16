@@ -36,6 +36,8 @@ button {
   margin-bottom: 5px;
   border-radius: 5px;
   max-width: 50%
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 button:hover {
