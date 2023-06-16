@@ -1,0 +1,50 @@
+body {
+  background-image: url("./img/cat.png");
+  background-size: cover;
+  font-family: "Mukta", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container {
+  background: plum;
+  max-width: 50%;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#increment-btn {
+  background: darkviolet;
+}
+
+#save-btn {
+  background: darkmagenta;
+}
